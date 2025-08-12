@@ -1,0 +1,88 @@
+{
+  "students": {
+    "1213": {
+      "name": "eftear",
+      "age": 25,
+      "address": "mirpur - 6",
+      "student_id": "1213",
+      "grades": {
+        "111": "A"
+      },
+      "courses": [
+        "111"
+      ]
+    },
+    "1001": {
+      "name": "Banna",
+      "age": 25,
+      "address": "mirpur - 6",
+      "student_id": "1001",
+      "grades": {
+        "112": "B"
+      },
+      "courses": [
+        "112"
+      ]
+    },
+    "2001": {
+      "name": "Refayth",
+      "age": 23,
+      "address": "Uttara",
+      "student_id": "2001",
+      "grades": {
+        "111": "B+"
+      },
+      "courses": [
+        "111"
+      ]
+    },
+    "2002": {
+      "name": "Sadia",
+      "age": 22,
+      "address": "Dhanmondi",
+      "student_id": "2002",
+      "grades": {
+        "112": "A-"
+      },
+      "courses": [
+        "112"
+      ]
+    },
+    "2003": {
+      "name": "Rahim",
+      "age": 24,
+      "address": "Banani",
+      "student_id": "2003",
+      "grades": {
+        "111": "A",
+        "112": "B+"
+      },
+      "courses": [
+        "111",
+        "112"
+      ]
+    }
+  },
+  "courses": {
+    "111": {
+      "course_name": "python",
+      "course_code": "111",
+      "instructor": "eft",
+      "students": [
+        "1213",
+        "2001",
+        "2003"
+      ]
+    },
+    "112": {
+      "course_name": "SQL",
+      "course_code": "112",
+      "instructor": "eft",
+      "students": [
+        "1001",
+        "2002",
+        "2003"
+      ]
+    }
+  }
+}
